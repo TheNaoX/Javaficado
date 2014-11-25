@@ -6,7 +6,13 @@ public class Operadores {
       System.out.println(i*10); // 100
       System.out.println(i/10); // 1
       System.out.println(i%10); // 0
-      System.out.println(i++);  // 11
-      System.out.println(i--);  // 9
+
+      i++;
+      System.out.println(i);  // 11
+
+      i = 10;
+
+      i--;
+      System.out.println(i);  // 9
     }
 }
